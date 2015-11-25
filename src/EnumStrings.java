@@ -27,7 +27,7 @@ public enum EnumStrings {
     public String getDescription() { return description; }
 
     public static void main(String[] args) {
-        SortedSet set = new TreeSet();
+        SortedSet<String> set = new TreeSet<String>();
         set.add(FIRST.getDescription());
         set.add(SECOND.getDescription());
         set.add(THIRD.getDescription());
